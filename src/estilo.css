@@ -1,15 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
-
+input::placeholder{
+    opacity: 1;
+    text-align: center;
+}
 /* ##variaveis */
 :root{
     --cor-principal:#3e4095
+}
+body{
+    transform: scale(0.8);
 }
 /* ##altura */
 body{
     height: 100vh;
 }
+/* ##fontePesada */
+.restoDados>p,
+.campoCpf::placeholder,
+.campoCpf,
+.dados,
+.texto2,
+.texto1{
+    font-weight: bold;
+}
+/* ##fonteMedia */
+.campoNome,
+.campoNome::placeholder{
+    font-weight: 500;
+}
+.campoNome,
+.campoNome::placeholder,
+.texto1{
+    font-size: 33pt;
+}
+.restoDados>p
+.campoCpf,
+.dados,
+.texto2{
+    font-size: 13pt;
+}
+.campoCpf{
+    text-align: center;
+}
+/* ##azul */
+.restoDados>p,
+.campo,
+.campoNome,
+.campoNome::placeholder,
+.dados,
+.texto2,
+.texto1{
+    color: #3e4095;
+}
+.dados{
+    text-align: center;
+}
 /* ##flex */
+.assinaturaInstrutor,
+.assinaturaDono,
 .caixaFormulario,
 .caixaLogoTexto,
 .caixaAssinaturas,
@@ -28,12 +77,16 @@ body{
     justify-content: space-between;
 }
 /* ##alinhado */
+.assinaturaDono,.assinaturaInstrutor,
+.assinatura,
 .caixaFormulario,
 .caixaLogoTexto,
 body{
     align-items: center;
 }
 /* ##coluna */
+.assinaturaInstrutor,
+.assinaturaDono,
 .caixaFormulario,
 .caixaLogoTexto,
 #certificado{
@@ -41,6 +94,9 @@ body{
 }
 /* ##certificado */
 #certificado{
+    background-image: url(/img/fundo.webp);
+    background-repeat: no-repeat;
+    background-position-y:110%;
     position:relative;
     border: 1.5mm solid var(--cor-principal);
     width: 297mm;
@@ -49,7 +105,6 @@ body{
 /* ##logoMedalha */
 .logoMedalha{
     position: relative;
-    background-color: lightgray;
     height: auto;
 }
 /* ##logoTexto */
@@ -57,39 +112,33 @@ body{
     position: relative;
     width: 150mm;
     height: 73mm;
-    background-color: lightblue;
     /* margin-top: 13mm; */
 }
 .logo{
     width: 68mm;
     height: 36mm;
-    background-color: lightpink;
 }
 .texto1{
     margin-top: 9mm;
     width: 78mm;
     height: 9mm;
-    background-color: lightsalmon;
 }
 .texto2{
     position: absolute;
     width: 100%;
     height: 4.5mm;
-    background-color: lightskyblue;
     bottom: 0px;
 }
 /* ##medalha */
 .caixaMedalha{
     width: 43mm;
     height: 103mm;
-    background-color: lightcyan;
     position: absolute;
     right: 17mm;
 }
 .textoMedalha{
     width: 13mm;
     height: 3.5mm;
-    background-color: lightskyblue;
     position: absolute;
     bottom: 19mm;
     left: calc(43mm / 2 - 13mm/2);
@@ -98,24 +147,37 @@ body{
 .caixaFormulario{
     width: 239mm;
     height: 51mm;
-    background-color: lightcoral;
     margin: 10mm auto;
 }
 .nomeCpf{
-    width: 145mm;
+    width: 160mm;
     height: 17mm;
-    background-color: lightgreen;
+    text-align: center;
 }
 .restoDados{
     width: 100%;
     height: 21mm;
-    background-color: rgb(90, 95, 100);
+    background-color: lightcyan;
 }
+/* ##campos */
+.campo{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.campoNome{
+    width: 100%;
+    height: 12mm;
+}
+.campoCpf{
+    height: 3.5mm;
+    width: 48mm;
+}
+
 /* ##assinaturas */
 .caixaAssinaturas{
     width: 208mm;
     height: 42mm;
-    background-color: lightgoldenrodyellow;
     position: absolute;
     bottom: 10mm;
     left: calc(208mm / 5);
@@ -123,5 +185,11 @@ body{
 .caixaAssinaturas>section{
     width: 82mm;
     height: 42mm;
-    background-color: lightgreen;
+}
+.assinatura{
+    width: 70mm;
+    height: 23mm;
+}
+.caixaAssinaturas>section>hr{
+    width: 100%;
 }
