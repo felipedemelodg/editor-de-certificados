@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+/* ##variaveis */
+:root{
+    --cor-principal:#3e4095
+}
+/* ##altura */
+body{
+    height: 100vh;
+}
+/* ##flex */
+.caixaFormulario,
+.caixaLogoTexto,
+.caixaAssinaturas,
+.logoMedalha,
+body{
+    display: flex;   
+}
+/* ##justificado */
+.caixaFormulario{justify-content: end;}
+.caixaLogoTexto,
+.logoMedalha,
+body{
+    justify-content: center;
+}
+.caixaAssinaturas{
+    justify-content: space-between;
+}
+/* ##alinhado */
+.caixaFormulario,
+.caixaLogoTexto,
+body{
+    align-items: center;
+}
+/* ##coluna */
+.caixaFormulario,
+.caixaLogoTexto,
+#certificado{
+    flex-direction: column;
+}
+/* ##certificado */
+#certificado{
+    position:relative;
+    border: 1.5mm solid var(--cor-principal);
+    width: 297mm;
+    height: 210mm;
+}
+/* ##logoMedalha */
+.logoMedalha{
+    position: relative;
+    background-color: lightgray;
+    height: auto;
+}
+/* ##logoTexto */
+.caixaLogoTexto{
+    position: relative;
+    width: 150mm;
+    height: 73mm;
+    background-color: lightblue;
+    /* margin-top: 13mm; */
+}
+.logo{
+    width: 68mm;
+    height: 36mm;
+    background-color: lightpink;
+}
+.texto1{
+    margin-top: 9mm;
+    width: 78mm;
+    height: 9mm;
+    background-color: lightsalmon;
+}
+.texto2{
+    position: absolute;
+    width: 100%;
+    height: 4.5mm;
+    background-color: lightskyblue;
+    bottom: 0px;
+}
+/* ##medalha */
+.caixaMedalha{
+    width: 43mm;
+    height: 103mm;
+    background-color: lightcyan;
+    position: absolute;
+    right: 17mm;
+}
+.textoMedalha{
+    width: 13mm;
+    height: 3.5mm;
+    background-color: lightskyblue;
+    position: absolute;
+    bottom: 19mm;
+    left: calc(43mm / 2 - 13mm/2);
+}
+/* ##formulario */
+.caixaFormulario{
+    width: 239mm;
+    height: 51mm;
+    background-color: lightcoral;
+    margin: 10mm auto;
+}
+.nomeCpf{
+    width: 145mm;
+    height: 17mm;
+    background-color: lightgreen;
+}
+.restoDados{
+    width: 100%;
+    height: 21mm;
+    background-color: rgb(90, 95, 100);
+}
+/* ##assinaturas */
+.caixaAssinaturas{
+    width: 208mm;
+    height: 42mm;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    bottom: 10mm;
+    left: calc(208mm / 5);
+}
+.caixaAssinaturas>section{
+    width: 82mm;
+    height: 42mm;
+    background-color: lightgreen;
+}
