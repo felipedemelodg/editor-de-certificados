@@ -1,0 +1,21 @@
+{
+  "campo": "nome",
+  "validacao": {
+    "obrigatorio": true,
+    "tipo": "string",
+    "tamanho_minimo": 2,
+    "tamanho_maximo": 100,
+    "permitir_numeros": false,
+    "permitir_caracteres_especiais": false,
+    "permitir_espacos": true,
+    "regex": "^[a-zA-Zà-úÀ-Ú]+( [a-zA-Zà-úÀ-Ú]+)*$",
+    "mensagens_erro": {
+      "obrigatorio": "O campo nome é obrigatório.",
+      "tamanho_minimo": "O nome deve ter no mínimo 2 caracteres.",
+      "tamanho_maximo": "O nome deve ter no máximo 100 caracteres.",
+      "permitir_numeros": "Números não são permitidos no campo nome.",
+      "permitir_caracteres_especiais": "Caracteres especiais não são permitidos no campo nome.",
+      "regex": "O nome contém caracteres inválidos."
+    }
+  }
+}

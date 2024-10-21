@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FSC criador de certificados</title>
-    <link rel="stylesheet" href="/src/estilo.css">
+    <link rel="stylesheet" href="/src/estilo/estilo.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+
 </head>
 
 <body>
+
+
     <main id="certificado">
         <section class="logoMedalha">
             <section class="caixaLogoTexto">
@@ -19,51 +23,66 @@
             </section>
             <section class="caixaMedalha">
                 <img src="/img/medalha.webp" alt="">
-                <p class="textoMedalha"></p>
+                <p class="textoMedalha">
+                    <select name="nrs" class="nrs"></select>
+                </p>
             </section>
         </section>
 
-
-
-
-        <form class="caixaFormulario">
+        <section class="dadosCertificado">
             <section class="nomeCpf">
-                <input type="text" class="campo campoNome" placeholder="Nome completo do aluno" required><br>
-                <input type="cpf" class="campo campoCpf" placeholder="cpf do aluno">
-
-
+                <div class="nome">Digite o nome do Aluno</div>
+                <p class="CPF">000.000.000-00</p>
             </section>
+
+
             <section class="restoDados">
-                <p>
-                Certificamos que o(a) Sr.(a) <span class="nomeDoAluno"></span>
-                </p>
+                <span class="textoInicio">Certificamos que o(a) Sr.(a) </span>
+                <span class="nomeNoCertificado">
+                    nome do aluno
+                </span>
+                <span class="textoComplementar">
+
+                </span>
+                <span class="nrCertificado">
+              
+                    
+                </span>na data de:
+                <span class="data">
+                    <input type="date" class="dataNoTexto">
+                </span>,promovido por:
+                <span class="promovidoPor">
+                    FSC segurança do trabalho
+                </span> com a carga horaria de:
+                <span class='cargaHoraria'>
+                    100 horas
+                </span>
             </section>
-        </form>
-
-
-
+        </section>
 
         <section class="caixaAssinaturas">
             <section class="assinaturaInstrutor">
                 <img src="/img/assinatura-instrutor.webp" alt="" class="assinatura">
                 <hr>
-                <p class="dadosInstrutor dados">
-                    Marcos Andre <br>
-                    RG: 111.111.111-1 <br>
-                    SIBOCIPE 0019/ APEBC B-10096I
-                </p>
+                <span class="dadosInstrutor dados">
+                    <span class="nomeInstrutor"> Marcos Andre</span> <br>
+                    <span class="rgInstrutor"> RG: 111.111.111-1</span> <br>
+                    <span class="certificacaoInstrutor">SIBOCIPE 0019/ APEBC B-10096I</span> 
+                </span>
             </section>
             <section class="assinaturaDono">
-                <img src="/img/assinatura-instrutor.webp" alt="" class="assinatura">
+                <img src="/img/assinatura-dono.webp" alt="" class="assinatura">
                 <hr>
-                <p class="dadosDono dados">
+                <span class="dadosDono dados">
                     Fabio Sampaio <br>
                     FSC SEGURANÇA DO TRABALHO <br>
                     CNPJ 39.522.472/0001-40
-                </p>
+                </span>
             </section>
         </section>
     </main>
+
+    <script type="module" src="/src/js/script.js"></script>
 </body>
 
 </html>

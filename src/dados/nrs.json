@@ -1,0 +1,484 @@
+{
+  "NormasRegulamentadoras": [
+    {
+      "numero": "NR 1",
+      "titulo": "Disposições Gerais"
+    },
+    {
+      "numero": "NR 2",
+      "titulo": "Inspeção Prévia"
+    },
+    {
+      "numero": "NR 3",
+      "titulo": "Embargo ou Interdição"
+    },
+    {
+      "numero": "NR 4",
+      "titulo": "Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho"
+    },
+    {
+      "numero": "NR 5",
+      "titulo": "Comissões Internas de Prevenção de Acidentes - CIPA"
+    },
+    {
+      "numero": "NR 6",
+      "titulo": "Equipamentos de Proteção Individual - EPI"
+    },
+    {
+      "numero": "NR 7",
+      "titulo": "Programa de Controle Médico de Saúde Ocupacional - PCMSO"
+    },
+    {
+      "numero": "NR 8",
+      "titulo": "Edificações"
+    },
+    {
+      "numero": "NR 9",
+      "titulo": "Programa de Prevenção de Riscos Ambientais - PPRA"
+    },
+    {
+      "numero": "NR 10",
+      "titulo": "Segurança em Instalações e Serviços em Eletricidade"
+    },
+    {
+      "numero": "NR 11",
+      "titulo": "Transporte, Movimentação, Armazenagem e Manuseio de Materiais"
+    },
+    {
+      "numero": "NR 12",
+      "titulo": "Segurança no Trabalho em Máquinas e Equipamentos"
+    },
+    {
+      "numero": "NR 13",
+      "titulo": "Caldeiras, Vasos de Pressão e Tubulações"
+    },
+    {
+      "numero": "NR 14",
+      "titulo": "Fornos"
+    },
+    {
+      "numero": "NR 15",
+      "titulo": "Atividades e Operações Insalubres"
+    },
+    {
+      "numero": "NR 16",
+      "titulo": "Atividades e Operações Perigosas"
+    },
+    {
+      "numero": "NR 17",
+      "titulo": "Ergonomia"
+    },
+    {
+      "numero": "NR 18",
+      "titulo": "Condições e Meio Ambiente de Trabalho na Indústria da Construção"
+    },
+    {
+      "numero": "NR 19",
+      "titulo": "Explosivos"
+    },
+    {
+      "numero": "NR 20",
+      "titulo": "Segurança e Saúde no Armazenamento e Manuseio de Líquidos Combustíveis e Inflamáveis"
+    },
+    {
+      "numero": "NR 21",
+      "titulo": "Trabalho a Céu Aberto"
+    },
+    {
+      "numero": "NR 22",
+      "titulo": "Segurança e Saúde Ocupacional na Mineração"
+    },
+    {
+      "numero": "NR 23",
+      "titulo": "Proteção Contra Incêndios"
+    },
+    {
+      "numero": "NR 24",
+      "titulo": "Condições Sanitárias e de Conforto nos Locais de Trabalho"
+    },
+    {
+      "numero": "NR 25",
+      "titulo": "Gerenciamento de Resíduos Sólidos"
+    },
+    {
+      "numero": "NR 26",
+      "titulo": "Sinalização de Segurança"
+    },
+    {
+      "numero": "NR 27",
+      "titulo": "Registro da Atividade de Segurança e Saúde no Trabalho"
+    },
+    {
+      "numero": "NR 28",
+      "titulo": "Fiscalização e Penalidades"
+    },
+    {
+      "numero": "NR 29",
+      "titulo": "Segurança e Saúde no Trabalho Portuário"
+    },
+    {
+      "numero": "NR 30",
+      "titulo": "Trabalho em Embarcações"
+    },
+    {
+      "numero": "NR 31",
+      "titulo": "Segurança e Saúde no Trabalho Agrícola"
+    },
+    {
+      "numero": "NR 32",
+      "titulo": "Segurança e Saúde no Trabalho em Serviços de Saúde"
+    },
+    {
+      "numero": "NR 33",
+      "titulo": "Segurança e Saúde nos Trabalhos em Espaços Confinados"
+    },
+    {
+      "numero": "NR 34",
+      "titulo": "Condições de Segurança e Saúde em Trabalhos com Perigosas"
+    },
+    {
+      "numero": "NR 35",
+      "titulo": "Trabalho em Altura"
+    },
+    {
+      "numero": "NR 36",
+      "titulo": "Segurança e Saúde no Trabalho em Frigoríficos"
+    },
+    {
+      "numero": "NR 37",
+      "titulo": "Segurança e Saúde no Trabalho em Transporte de Cargas"
+    },
+    {
+      "numero": "NR 38",
+      "titulo": "Segurança e Saúde no Trabalho em Telemarketing"
+    },
+    {
+      "numero": "NR 39",
+      "titulo": "Segurança e Saúde no Trabalho em Televisão e Cinema"
+    },
+    {
+      "numero": "NR 40",
+      "titulo": "Segurança e Saúde no Trabalho em Serviços de Higiene e Limpeza"
+    },
+    {
+      "numero": "NR 41",
+      "titulo": "Segurança e Saúde no Trabalho em Telecomunicações"
+    },
+    {
+      "numero": "NR 42",
+      "titulo": "Segurança e Saúde no Trabalho em Aeronáutica"
+    },
+    {
+      "numero": "NR 43",
+      "titulo": "Segurança e Saúde no Trabalho em Elevadores"
+    },
+    {
+      "numero": "NR 44",
+      "titulo": "Segurança e Saúde no Trabalho em Análises Clínicas"
+    },
+    {
+      "numero": "NR 45",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias Químicas"
+    },
+    {
+      "numero": "NR 46",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Alimentos"
+    },
+    {
+      "numero": "NR 47",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Bebidas"
+    },
+    {
+      "numero": "NR 48",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Vestuário"
+    },
+    {
+      "numero": "NR 49",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Calçados"
+    },
+    {
+      "numero": "NR 50",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Têxteis"
+    },
+    {
+      "numero": "NR 51",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Papel e Celulose"
+    },
+    {
+      "numero": "NR 52",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Plásticos"
+    },
+    {
+      "numero": "NR 53",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Madeira"
+    },
+    {
+      "numero": "NR 54",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Cerâmica"
+    },
+    {
+      "numero": "NR 55",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Metalurgia"
+    },
+    {
+      "numero": "NR 56",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Mineração"
+    },
+    {
+      "numero": "NR 57",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Mármores e Granitos"
+    },
+    {
+      "numero": "NR 58",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Concreto"
+    },
+    {
+      "numero": "NR 59",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Refrigeração"
+    },
+    {
+      "numero": "NR 60",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Frio"
+    },
+    {
+      "numero": "NR 61",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Aço"
+    },
+    {
+      "numero": "NR 62",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Alumínio"
+    },
+    {
+      "numero": "NR 63",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Ligação de Aço"
+    },
+    {
+      "numero": "NR 64",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Proteção"
+    },
+    {
+      "numero": "NR 65",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos Eletrônicos"
+    },
+    {
+      "numero": "NR 66",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Telecomunicações"
+    },
+    {
+      "numero": "NR 67",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte"
+    },
+    {
+      "numero": "NR 68",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Armazenagem"
+    },
+    {
+      "numero": "NR 69",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Lazer"
+    },
+    {
+      "numero": "NR 70",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Cuidado Pessoal"
+    },
+    {
+      "numero": "NR 71",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Beleza"
+    },
+    {
+      "numero": "NR 72",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Saúde"
+    },
+    {
+      "numero": "NR 73",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Limpeza"
+    },
+    {
+      "numero": "NR 74",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Medicamento"
+    },
+    {
+      "numero": "NR 75",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte Marítimo"
+    },
+    {
+      "numero": "NR 76",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte Aéreo"
+    },
+    {
+      "numero": "NR 77",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte Ferroviário"
+    },
+    {
+      "numero": "NR 78",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte Rodoviário"
+    },
+    {
+      "numero": "NR 79",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Carga"
+    },
+    {
+      "numero": "NR 80",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Pessoas"
+    },
+    {
+      "numero": "NR 81",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Animais"
+    },
+    {
+      "numero": "NR 82",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Alimentos"
+    },
+    {
+      "numero": "NR 83",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Medicamento"
+    },
+    {
+      "numero": "NR 84",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Resíduos"
+    },
+    {
+      "numero": "NR 85",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Lixo"
+    },
+    {
+      "numero": "NR 86",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Água"
+    },
+    {
+      "numero": "NR 87",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Gás"
+    },
+    {
+      "numero": "NR 88",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Óleo"
+    },
+    {
+      "numero": "NR 89",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Combustível"
+    },
+    {
+      "numero": "NR 90",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Químicos"
+    },
+    {
+      "numero": "NR 91",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Fertilizantes"
+    },
+    {
+      "numero": "NR 92",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Agrotóxicos"
+    },
+    {
+      "numero": "NR 93",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Perigosos"
+    },
+    {
+      "numero": "NR 94",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Substâncias Químicas"
+    },
+    {
+      "numero": "NR 95",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Químicos"
+    },
+    {
+      "numero": "NR 96",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Orgânicos"
+    },
+    {
+      "numero": "NR 97",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Inorgânicos"
+    },
+    {
+      "numero": "NR 98",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Metálicos"
+    },
+    {
+      "numero": "NR 99",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Plásticos"
+    },
+    {
+      "numero": "NR 100",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Papel"
+    },
+    {
+      "numero": "NR 101",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Madeira"
+    },
+    {
+      "numero": "NR 102",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Têxteis"
+    },
+    {
+      "numero": "NR 103",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Alimentares"
+    },
+    {
+      "numero": "NR 104",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Químicos"
+    },
+    {
+      "numero": "NR 105",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Farmacêuticos"
+    },
+    {
+      "numero": "NR 106",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Biológicos"
+    },
+    {
+      "numero": "NR 107",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Naturais"
+    },
+    {
+      "numero": "NR 108",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Sintéticos"
+    },
+    {
+      "numero": "NR 109",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Tecnologia"
+    },
+    {
+      "numero": "NR 110",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Informação"
+    },
+    {
+      "numero": "NR 111",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos Digitais"
+    },
+    {
+      "numero": "NR 112",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Comunicação"
+    },
+    {
+      "numero": "NR 113",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Energia"
+    },
+    {
+      "numero": "NR 114",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Ação"
+    },
+    {
+      "numero": "NR 115",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Vigilância"
+    },
+    {
+      "numero": "NR 116",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Seguros"
+    },
+    {
+      "numero": "NR 117",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Cultura"
+    },
+    {
+      "numero": "NR 118",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Saúde"
+    },
+    {
+      "numero": "NR 119",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Educação"
+    },
+    {
+      "numero": "NR 120",
+      "titulo": "Segurança e Saúde no Trabalho em Indústrias de Equipamentos de Transporte de Produtos de Diversão"
+    }
+  ]
+}
